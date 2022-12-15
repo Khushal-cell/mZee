@@ -212,7 +212,7 @@ font-size: 1.4rem;
     }
     .intro h5 {
         color: #fff300;
-        margin: 7px 5px;
+        margin: 3px 2px;
         font-size: 1rem;
         word-spacing: 3px;
         margin-left: 23px;
@@ -250,7 +250,16 @@ font-size: 1.4rem;
 
 
 
-  @media (max-width: 320px) {
+
+
+
+
+
+
+
+
+
+  @media (max-width: 420px) {
     .style1 {
         width: 250px;
     }
