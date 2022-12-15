@@ -15,6 +15,10 @@ body {
   background-size: cover;
   background-position: center;
 }
+.sections {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
 
 /* ////////////////////////////////////// NAVBAR ///////////////////////////////////// */
 .navbar {
@@ -33,7 +37,11 @@ body {
     font-weight: bolder;
     text-decoration: none;
 }
+.navbar a:hover {
+    color: #fff300;
+}
 .nav_links {
+
     font-family: 'Unbounded', cursive;
     text-transform: uppercase;
     display: flex;
@@ -55,10 +63,12 @@ body {
 
 /* //////////////////////////////////////// INTROSECTION /////////////////////// */
 .intro_section {
+    height: 100vh;
     display: flex;
     justify-content: space-between;
 }
 .introduction {
+    scroll-snap-align: start;
     text-align: center;
     padding: 40px;
  display: flex;
@@ -155,6 +165,77 @@ font-size: 1.4rem;
 .btn button:hover {
     background-color: #fff20077;
 }
+/* /////////////////////////////////////////////////////// ABOUT_ME //////////////////////////// */
+.about_me {
+    scroll-snap-align: start;
+    height: 100vh;
+    position: relative;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.style4 { 
+    position: absolute;
+    bottom: 9%;
+    margin: 3px;
+    background-color: var(--solidcolor);
+    height: 0.5vh;
+    width: 300px;
+}
+.style3 { 
+    position: absolute;
+    bottom: 10%;
+    background-color: var(--solidcolor);
+    height: 40vh;
+    width: 3px;
+}
+.style5{
+    margin: 0px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--solidcolor);
+    height: 40vh;
+    width: 3px;
+}
+.style6{
+    margin: 0px 20px;
+    position: absolute;
+    top: -1%;
+    right: 1%;
+    margin: 3px;
+    background-color: var(--solidcolor);
+    height: 0.5vh;
+    width: 300px;
+}
+.heading {
+    font-size: 3rem;
+    margin: 10px;
+    text-align: center;
+}
+.abt p {
+    padding: 3px 4px;
+    line-height: 40px;
+    word-spacing: 20px;
+    font-size: 1.5rem;
+}
+.abt {
+    padding: 10px 20px;
+}
+.abt span {
+    color: black;
+    background-color: #fff300;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -276,6 +357,71 @@ font-size: 1.4rem;
     .btn button:hover {
         background-color: #fff20077;
     }
+
+
+
+
+    .about_me {
+        margin-top: 50px;
+        scroll-snap-align: start;
+        height: 100%;
+        position: relative;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .style4 { 
+        position: absolute;
+        bottom: -1%;
+        margin: 3px;
+        background-color: var(--solidcolor);
+        height: 0.5vh;
+        width: 300px;
+    }
+    .style3 { 
+        position: absolute;
+        bottom: 0%;
+        background-color: var(--solidcolor);
+        height: 40vh;
+        width: 3px;
+    }
+    .style5{
+        margin: 0px 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--solidcolor);
+        height: 40vh;
+        width: 3px;
+    }
+    .style6{
+        margin: 0px 20px;
+        position: absolute;
+        top: 0%;
+        right: 5%;
+        margin: 3px;
+        background-color: var(--solidcolor);
+        height: 0.5vh;
+        width: 300px;
+    }
+    .heading {
+        font-size: 1rem;
+        margin: 10px;
+        text-align: center;
+    }
+    .abt p {
+        padding: 3px 4px;
+        line-height: 24px;
+        word-spacing: 5px;
+        font-size: 1rem;
+    }
+    .abt {
+        padding: 10px 20px;
+    }
+    .abt span {
+        color: black;
+        background-color: #fff300;
+    }
   }
 
 
@@ -327,5 +473,32 @@ font-size: 1.4rem;
            font-size: 1.2rem;
            margin: 10px 0px;
         }
-   
+        .about_me {
+            margin-top: 60px;
+            scroll-snap-align: start;
+            height: 100%;
+            position: relative;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .style5{
+            margin: 0px 20px;
+            position: absolute;
+            top: 1%;
+            right: 0;
+            background-color: var(--solidcolor);
+            height: 40vh;
+            width: 3px;
+        }
+        .style6{
+            margin: 0px 20px;
+            position: absolute;
+            top: 0%;
+            right: 5%;
+            margin: 3px;
+            background-color: var(--solidcolor);
+            height: 0.5vh;
+            width: 250px;
+        }
   }
