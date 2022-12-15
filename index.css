@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -17,11 +18,12 @@ body {
 
 /* ////////////////////////////////////// NAVBAR ///////////////////////////////////// */
 .navbar {
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
 }
 .navbar span {
+    font-family: 'Unbounded', cursive;
     text-decoration: underline;
     color: #fff300;
 }
@@ -32,6 +34,7 @@ body {
     text-decoration: none;
 }
 .nav_links {
+    font-family: 'Unbounded', cursive;
     text-transform: uppercase;
     display: flex;
     list-style: none;
@@ -50,17 +53,91 @@ body {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* //////////////////////////////////////// INTROSECTION /////////////////////// */
+.intro_section {
+    display: flex;
+    justify-content: space-between;
+}
+.introduction {
+    padding: 40px;
+ display: flex;
+ flex-direction: column;
+}
+.style1 {
+    margin: 3px;
+    background-color: var(--solidcolor);
+    height: 0.5vh;
+    width: 600px;
+}
+.style2{
+    background-color: var(--solidcolor);
+    height: 75vh;
+    width: 3px;
+}
+.subintro {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.intro {
+    border-radius: 3px;
+    border-top: white solid 2px;
+    border-right: white solid 2px;
+    border-left: white solid 2px;
+    padding: 10px 20px;
+    width: 80%;
+    top: 10%;
+    left: 17%;
+    position: absolute;
+}
+.intro h2 {
+    font-family: 'Unbounded', cursive;
+   font-size: 3rem;
+}
+/* .intro span {
+    color: #fff300;
+} */
+.intro h5 {
+    color: #fff300;
+    margin: 7px 5px;
+    font-size: 1.6rem;
+    word-spacing: 3px;
+    margin-left: 23px;
+}
+.intro h6 {
+font-size: 1.4rem;
+    word-spacing: 23px;
+}
+.intro p {
+    font-size: 1.2rem;
+    margin: 10px 3px;
+    width: 100%;
+    word-spacing: 3px;
+    color: rgba(128, 128, 128, 0.914);
+    font-weight: bolder;
+}
+.picture {
+    margin-bottom: 3px;
+    border: 3px solid #fff300;
+    border-bottom: transparent;
+   background-image: linear-gradient(111deg, rgba(6, 1, 1, 0.538) 2%, rgba(6, 1, 1, 0.167) 10%),
+   url('profile.jpg');
+   width: 350px;
+   height: 60vh;
+   background-position: center;
+   background-size: cover;
+}
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pic p {
+    margin-top: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(128, 128, 128, 0.529);
+}
 
 
 
@@ -107,6 +184,107 @@ body {
         display: block;
         list-style: none;
     }
+    .intro_section{
+        flex-direction: column;
+    }
+    .style1 {
+        margin: 3px;
+        background-color: var(--solidcolor);
+        height: 0.5vh;
+        width: 300px;
+    }
+    .style2{
+        z-index: -2;
+        background-color: var(--solidcolor);
+        height: 35vh;
+        width: 3px;
+    }
+    .subintro {
+        z-index: -2;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+    .intro {
+        top: 10%;
+        left: 10%;
+        position: absolute;
+    }
+    .intro h5 {
+        color: #fff300;
+        margin: 7px 5px;
+        font-size: 1rem;
+        word-spacing: 3px;
+        margin-left: 23px;
+    }
+    .intro h6 {
+    font-size: 1rem;
+        word-spacing: 10px;
+    }
+    .intro p {
+        font-size: 0.6rem;
+        margin: 5px 3px;
+        width: 100%;
+        word-spacing: 3px;
+        color: rgba(128, 128, 128, 0.914);
+        font-weight: bolder;
+    }
+    .intro h2 {
+        font-family: 'Unbounded', cursive;
+       font-size: 2rem;
+    }
+    .picture {
+        margin-bottom: 3px;
+        border: 3px solid #fff300;
+        border-bottom: transparent;
+       background-image: linear-gradient(111deg, rgba(6, 1, 1, 0.538) 2%, rgba(6, 1, 1, 0.167) 10%),
+       url('profile.jpg');
+       width: 250px;
+       height: 50vh;
+       background-position: center;
+       background-size: cover;
+    }
+  }
 
 
+
+
+
+  @media (max-width: 320px) {
+    .style1 {
+        width: 250px;
+    }
+    .style2{
+        z-index: -2;
+        height: 35vh;
+    }
+    .intro {
+        border-radius: 3px;
+        border-top: white solid 2px;
+        border-right: white solid 2px;
+        border-left: white solid 2px;
+        padding: 10px 10px;
+        width: 80%;
+        top: 5%;
+        left: 10%;
+        position: absolute;
+    }
+    .intro h5 {
+        color: #fff300;
+        margin: 2px 1px;
+        font-size: 0.7rem;
+        word-spacing: 2px;
+        margin-left: 13px;
+    }
+    .intro h6 { 
+        margin: 8px 2px;
+        font-size: 0.9rem;
+            word-spacing: 0px;
+        }
+        .intro h2 {
+            font-family: 'Unbounded', cursive;
+           font-size: 1.2rem;
+           margin: 10px 0px;
+        }
+   
   }
