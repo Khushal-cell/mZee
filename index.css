@@ -2,13 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: var(--textcolor);
 }
 :root {
-    --textcolor : white;
+    --solidcolor: #fff300;
 }
+
 body {
-  background-image: url('background.jpg');
+    color: #fff;
+  background-image: linear-gradient(111deg, rgba(6, 1, 1, 0.638) 2%, rgba(6, 1, 1, 0.518) 10%),
+  url('background.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -21,9 +23,10 @@ body {
 }
 .navbar span {
     text-decoration: underline;
-    color: orange;
+    color: #fff300;
 }
 .navbar a {
+    color: #fff;
     font-size: 1.3rem;
     font-weight: bolder;
     text-decoration: none;
@@ -37,9 +40,12 @@ body {
     margin: 0px 10px;
 }
 .menu-icn {
+    color: #fff300;
     display: none;
 }
 .close-icn {
+    color: #fff300;
+     font-size: 1.5rem;
     z-index: 2;
     display: none;
 }
@@ -60,19 +66,19 @@ body {
 
 
   @media (max-width: 678px) {
-    .navbar h2 {
-        font-size: 14px;
-    }
     .logo {
         z-index: 2;
     }
     .navbar a {
-        font-size: 10px;
-        font-weight: lighter;
+        padding: 4px;
+        border-bottom: 2px dotted rgba(255, 255, 255, 0.253);
+        font-size: 1rem;
+        font-weight: bold;
         text-decoration: none;
     }
-    .nav_links li {
-       font-size: 1.5rem;
+    .nav_links li {       
+        font-weight: bold;
+        margin-top: 13px;
     }
     .navbar {
         padding: 10px;
@@ -83,13 +89,14 @@ body {
         display: none;
     }
     .menu-icn {
+        font-size: 1.5rem;
         position: relative;
         display: block;
         z-index: 2;
     }
     .nav_links {
         transition: 2s all;
-        padding: 20px 0px;
+        padding: 40px 0px;
         text-align: center;
         width: 100%;
         background-color: black;
