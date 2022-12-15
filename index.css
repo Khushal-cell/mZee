@@ -59,6 +59,7 @@ body {
     justify-content: space-between;
 }
 .introduction {
+    text-align: center;
     padding: 40px;
  display: flex;
  flex-direction: column;
@@ -138,7 +139,22 @@ font-size: 1.4rem;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(128, 128, 128, 0.529);
 }
-
+.btn { 
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+}
+.btn button {
+    background-color: transparent;
+    padding: 10px 10px;
+    color: #fff;
+    font-weight: bolder;
+    border: #fff300 1px solid;
+}
+.btn button:hover {
+    background-color: #fff20077;
+}
 
 
 
@@ -243,6 +259,22 @@ font-size: 1.4rem;
        height: 50vh;
        background-position: center;
        background-size: cover;
+    }
+    .btn { 
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: -3%;
+    }
+    .btn button {
+        background-color: transparent;
+        padding: 5px 5px;
+        color: #fff;
+        font-weight: lighter;
+        border: #fff300 1px solid;
+    }
+    .btn button:hover {
+        background-color: #fff20077;
     }
   }
 
