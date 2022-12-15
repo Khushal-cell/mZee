@@ -212,7 +212,7 @@ font-size: 1.4rem;
     .style2{
         z-index: -2;
         background-color: var(--solidcolor);
-        height: 35vh;
+        height: 28vh;
         width: 3px;
     }
     .subintro {
