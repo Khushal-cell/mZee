@@ -261,6 +261,18 @@ font-size: 1.4rem;
     width: 300px;
     height: 500px;
 }
+.project1:hover{
+    transition: 2s;
+    transform: scale(1.1)
+}
+.project2:hover{
+    transition: 2s;
+    transform: scale(1.1)
+}
+.project3:hover{
+    transition: 2s;
+    transform: scale(1.1)
+}
 .img1, .img2 , .img3, img{
     margin: 2px 3px;
     width: 280px;
@@ -268,10 +280,16 @@ font-size: 1.4rem;
     
 }
 .phead1 {
+    margin: 5px;
+    color: #fff300;
+    font-size: 1.5rem;
     text-align: center;
 }
 .para {
+    margin: 3px 3px;
     line-height: 30px;
+    font-size: 1rem;
+    font-weight: bolder;
 }
 .btn1 {
     padding-top: 30px;
@@ -506,7 +524,18 @@ font-size: 1.4rem;
     border-radius: 3px;
     margin-top: 10px;
     width: 300px;
-    height: 450px;
+    height: 490px;
+}
+.phead1 {
+    margin: 5px;
+    color: #fff300;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.para {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    line-height: 30px;
 }
   }
 
