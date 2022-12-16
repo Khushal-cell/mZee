@@ -306,9 +306,80 @@ font-size: 1.4rem;
 .btn1 button:hover {
     background-color: transparent;
 }
-
-
-
+/* /////////////////////////////////////// CONATACT ?//////////////////// */
+.contact_section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0505024c;
+}
+.heading2{
+  padding: 30px;
+    text-align: center;
+    color: var(--solidcolor);
+    font-size: 1.5rem;
+}
+.inputs {
+    padding: 30px 20px;
+    width: 400px;
+    border-radius: 4px;
+    background-color: #f7f7f5a4;
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.success {
+    padding: 10px;
+    background-color: rgba(82, 234, 82, 0.673);
+    margin: 10px;
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+}
+.inputs input {
+    padding: 6px;
+    outline: none;
+    height: 5vh;
+}
+.inputs label {
+    margin: 5px 0px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: var(--solidcolor);
+}
+.btn3 {
+    margin: 10px;
+    text-align: center;
+}
+textarea {
+    padding: 6px;
+    outline: none;
+}
+.btn3 button {
+    border: transparent;
+    border-radius: 13px;
+    font-size: 1rem;
+    background-color: #fff300;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: black;
+    text-align: center;
+}
+.footer span {
+    color: var(--solidcolor);
+}
 
 
 
