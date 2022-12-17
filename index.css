@@ -61,7 +61,6 @@ body {
     display: none;
 }
 
-/* //////////////////////////////////////// INTROSECTION /////////////////////// */
 .intro_section {
     height: 100vh;
     display: flex;
@@ -144,6 +143,7 @@ font-size: 1.4rem;
     align-items: center;
     flex-direction: column;
 }
+
 .pic p {
     margin-top: 12px;
     font-family: 'Courier New', Courier, monospace;
@@ -166,7 +166,6 @@ font-size: 1.4rem;
 .btn button:hover {
     background-color: #fff20077;
 }
-/* /////////////////////////////////////////////////////// ABOUT_ME //////////////////////////// */
 .about_me {
    margin-bottom: 70px;
     scroll-snap-align: start;
@@ -214,6 +213,7 @@ font-size: 1.4rem;
     font-size: 2.5rem;
     margin: 45px;
     text-align: center;
+    font-family: 'Unbounded', cursive;
 }
 .abt p {
     padding: 3px 4px;
@@ -228,7 +228,6 @@ font-size: 1.4rem;
     color: black;
     background-color: #fff300;
 }
-/* //////////////////////////////////////////////////////// Project section ////////////////////// */
 .projects {
     display: flex;
     flex-direction: column;
@@ -246,6 +245,7 @@ font-size: 1.4rem;
     border-top: 3px solid var(--solidcolor);
     border-left: 3px solid var(--solidcolor);
     padding: 20px;
+    font-family: 'Unbounded', cursive;
 }
 .cards {
     padding-top: 50px;
@@ -306,7 +306,6 @@ font-size: 1.4rem;
 .btn1 button:hover {
     background-color: transparent;
 }
-/* /////////////////////////////////////// CONATACT ?//////////////////// */
 .contact_section {
     height: 100vh;
     width: 100%;
@@ -320,6 +319,7 @@ font-size: 1.4rem;
     text-align: center;
     color: var(--solidcolor);
     font-size: 1.5rem;
+    font-family: 'Unbounded', cursive;
 }
 .inputs {
     padding: 30px 20px;
@@ -379,6 +379,25 @@ textarea {
 }
 .footer span {
     color: var(--solidcolor);
+}
+.media {   
+    border: solid 1px var(--solidcolor); 
+    padding: 20px 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 30%;
+    position: fixed;
+    background-color: #4F4055;
+
+}
+.media i {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.media a {
+    color: #fff;
 }
 
 
@@ -505,10 +524,6 @@ textarea {
     .btn button:hover {
         background-color: #fff20077;
     }
-
-
-
-
     .about_me {
         margin-top: 50px;
         scroll-snap-align: start;
@@ -608,20 +623,12 @@ textarea {
     font-weight: bolder;
     line-height: 30px;
 }
+.media i {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   @media (max-width: 420px) {
     .style1 {
