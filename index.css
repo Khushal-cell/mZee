@@ -402,6 +402,11 @@ textarea {
 .media a {
     color: #fff;
 }
+.JS_PROJECTS {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 
