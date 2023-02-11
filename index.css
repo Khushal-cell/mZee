@@ -7,6 +7,9 @@
 :root {
     --solidcolor: #fff300;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     color: #fff;
