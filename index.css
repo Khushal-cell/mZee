@@ -635,6 +635,9 @@ textarea {
     font-size: 1rem;
     margin-top: 10px;
 }
+.JS_PROJECTS {
+    flex-direction: column;
+}
 
   }
 
@@ -701,5 +704,8 @@ textarea {
             background-color: var(--solidcolor);
             height: 0.5vh;
             width: 250px;
+        }
+        .JS_PROJECTS {
+            flex-direction: column;
         }
   }
