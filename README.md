@@ -1,5 +1,1 @@
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://imgur.com/2QHv18E">
- <source media="(prefers-color-scheme: light)" srcset="https://imgur.com/2QHv18E">
- <img alt="YOUR-ALT-TEXT" src="https://imgur.com/2QHv18E">
-</picture>
+![prot](https://user-images.githubusercontent.com/62940100/218788662-f37cbb13-4e5d-4df3-925a-4b654758169f.png)
