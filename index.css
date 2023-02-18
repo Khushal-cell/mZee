@@ -126,7 +126,7 @@ font-size: 1.4rem;
     margin: 10px 3px;
     width: 100%;
     word-spacing: 3px;
-    color: rgba(128, 128, 128, 0.914);
+    color: rgb(157, 151, 151);
     font-weight: bolder;
 }
 .picture {
@@ -157,6 +157,11 @@ font-size: 1.4rem;
     text-align: center;
     position: absolute;
     bottom: 20%;
+}
+.btn a {
+    padding: 13px;
+    color: #fff;
+    text-decoration: none;
 }
 .btn button {
     font-size: 1.4rem;
@@ -496,7 +501,7 @@ textarea {
         margin: 5px 3px;
         width: 100%;
         word-spacing: 3px;
-        color: rgba(128, 128, 128, 0.914);
+        color: rgb(227, 219, 219);
         font-weight: bolder;
     }
     .intro h2 {
