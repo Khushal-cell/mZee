@@ -13,8 +13,9 @@ html {
 
 body {
     color: #fff;
-  background-image: linear-gradient(111deg, rgba(6, 1, 1, 0.638) 2%, rgba(6, 1, 1, 0.518) 10%),
-  url('background.jpg');
+  /* background-image: linear-gradient(111deg, rgba(6, 1, 1, 0.638) 2%, rgba(6, 1, 1, 0.518) 10%),
+  url('background.jpg'); */
+  background-color: rgba(0, 0, 0, 0.945);
   background-size: cover;
   background-position: center;
 }
@@ -136,9 +137,10 @@ font-size: 1.4rem;
    background-image: linear-gradient(111deg, rgba(6, 1, 1, 0.538) 2%, rgba(6, 1, 1, 0.167) 10%),
    url('profile.jpg');
    width: 350px;
-   height: 60vh;
+   height: 350px;
    background-position: center;
    background-size: cover;
+   border-radius: 100%;
 }
 .pic {
     display: flex;
@@ -515,7 +517,8 @@ textarea {
        background-image: linear-gradient(111deg, rgba(6, 1, 1, 0.538) 2%, rgba(6, 1, 1, 0.167) 10%),
        url('profile.jpg');
        width: 250px;
-       height: 50vh;
+       height: 250px;
+       border-radius: 100%;
        background-position: center;
        background-size: cover;
     }
